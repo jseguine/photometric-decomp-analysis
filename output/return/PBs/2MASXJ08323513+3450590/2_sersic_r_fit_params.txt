@@ -1,0 +1,26 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Fri May  1 01:24:08 2026 by the following command:
+#    imfit -c 2_sersic_r.dat image_r.fits --save-params 2_sersic_r_fit_params.txt --max-threads 8 --mask image_mask.fits --psf psf_patched_r.fits --noise image_r_invvar.fits --errors-are-weights
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
+#   Fit statistic: chi-squared (user-supplied errors)
+#   Best-fit value: 40843.025883
+#   Reduced value: 1.182416
+#   AIC: 40867.034916
+#   BIC: 40968.429226
+
+X0		94.1337 # +/- 0.0118
+Y0		95.2662 # +/- 0.0203
+FUNCTION Sersic   # LABEL Host
+PA		25.9206 # +/- 0.035951	deg (CCW from +y axis)
+ell		0.817391 # +/- 0.00078733
+n		0.655777 # +/- 0.0051588
+I_e		0.0959442 # +/- 0.0004131	counts/pixel
+r_e		23.7581 # +/- 0.061275	pixels
+FUNCTION Sersic   # LABEL Polar
+PA		 109.52 # +/- 0	deg (CCW from +y axis)
+ell		0.107292 # +/- 0
+n		1.08123 # +/- 0.010995
+I_e		0.02879 # +/- 0	counts/pixel
+r_e		12.3042 # +/- 0.051798	pixels

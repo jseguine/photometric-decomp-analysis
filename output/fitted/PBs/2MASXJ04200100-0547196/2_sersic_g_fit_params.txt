@@ -1,0 +1,26 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Mon May 11 18:19:18 2026 by the following command:
+#    imfit -c /Users/jonah/School/Research/photometric-decomp-analysis/decomposer/GalaxyFiles/PBs/2MASXJ04200100-0547196/2_sersic_g_host_manual.dat image_g.fits --save-params 2_sersic_g_fit_params.txt --max-threads 8 --mask image_mask.fits --psf psf_patched_g.fits --noise image_g_invvar.fits --errors-are-weights
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 5 -- Terminated: Maximum number of iterations reached
+#   Fit statistic: chi-squared (user-supplied errors)
+#   Best-fit value: 200897.251301
+#   Reduced value: 1.528189
+#   AIC: 200921.253675
+#   BIC: 201038.689983
+
+X0		184.9899 # +/- 0.0353
+Y0		186.5038 # +/- 0.0104
+FUNCTION Sersic   # LABEL Host
+PA		81.2012 # +/- 0.046488	deg (CCW from +y axis)
+ell		0.877296 # +/- 0
+n		6.34099 # +/- 0.094221
+I_e		0.000588558 # +/- 4.2273e-05	counts/pixel
+r_e		430.084 # +/- 18.796	pixels
+FUNCTION Sersic   # LABEL Polar
+PA		 174.54 # +/- 0	deg (CCW from +y axis)
+ell		0.369429 # +/- 0
+n		0.343759 # +/- 0
+I_e		0.00503194 # +/- 0.00017844	counts/pixel
+r_e		16.3126 # +/- 0.31175	pixels
